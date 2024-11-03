@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width : 900px){
     #search_bar {
         width: 50%;
@@ -42,3 +43,49 @@
     color: white;
 }
 }
+=======
+@media screen and (max-width : 900px){
+    #search_bar {
+        width: 50%;
+    }
+    .name_Actions {
+        width: 70%;
+        font-size: 20px;
+    }
+    .name_Actions_list {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .search{
+        height: 30px;
+            margin-top: 50px;
+    }
+    
+    #search_bar {
+        width: 60%;
+    }
+    .name_Actions {
+        width: 80%;
+        font-size:18px;
+    }
+    .name_Actions_list {
+        width: 80%;
+        font-size: 17px;
+        justify-content: space-between;
+    }
+    .icons {
+        margin-right: 20px;
+    }
+    .name_Actions p:nth-child(3) {
+        margin-right: 20px;
+    }
+
+#search_bar_button {
+    font-size: 13px;
+    padding: 3px 6px;
+    color: white;
+}
+}
+>>>>>>> 5e1335c5c29c513ebef2cdb70dbda52534313ccd
